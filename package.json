@@ -2,7 +2,7 @@
   "name": "icanhazip-client",
   "description": "Tiny fetch-based client for icanhazip.com (IPv4, IPv6, trace)",
   "type": "module",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {

@@ -54,3 +54,6 @@ try {
   console.error("Failed to fetch IP information", error);
 }
 ```
+
+### Support
+Like this project? Support it with a github star, it would mean a lot to me! Cheers and Happy Coding.

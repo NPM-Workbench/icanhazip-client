@@ -1,4 +1,7 @@
 ![banner](https://github.com/user-attachments/assets/c68adc2f-21df-42de-87b7-61439e5d56db)
+![npm](https://img.shields.io/npm/v/icanhazip-client)
+![downloads](https://img.shields.io/npm/dw/icanhazip-client)
+![license](https://img.shields.io/npm/l/icanhazip-client)
 # Icanhazip Client
 A lightweight JavaScript/TypeScript client for retrieving public IP information using the icanhazip service. This package is **ESM-only** and works in modern browsers and Node.js 18+ environments that support the Fetch API. Provides support for [https://github.com/runvnc/icanhazip](https://github.com/runvnc/icanhazip)
 

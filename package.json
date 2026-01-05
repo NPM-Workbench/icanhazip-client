@@ -28,6 +28,7 @@
     "type": "git",
     "url": "https://github.com/NPM-Workbench/icanhazip-client"
   },
+  "license": "MIT",
   "homepage": "https://github.com/NPM-Workbench/icanhazip-client",
   "bugs": {
     "url": "https://github.com/NPM-Workbench/icanhazip-client/issues"

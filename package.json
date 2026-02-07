@@ -12,23 +12,34 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "files": ["dist"],
-  "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --verbose"
   },
-  "keywords": ["ip", "ipv4", "ipv6", "icanhazip", "icanhazip-client"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ip",
+    "ipv4",
+    "ipv6",
+    "icanhazip",
+    "icanhazip-client"
+  ],
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/NPM-Workbench/icanhazip-client"
   },
-  "license": "MIT",
   "homepage": "https://github.com/NPM-Workbench/icanhazip-client",
   "bugs": {
     "url": "https://github.com/NPM-Workbench/icanhazip-client/issues"

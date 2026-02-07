@@ -58,5 +58,47 @@ try {
 }
 ```
 
+### 📗 Test Coverage
+
+```
+PASS src/get-full-trace/test/index.test.ts
+  getFullTrace
+    ✓ throws when global fetch is unavailable
+    ✓ throws when fetch response is not ok
+    ✓ returns parsed trace data
+    ✓ ignores malformed lines
+    ✓ targets the trace endpoint
+PASS src/get-ipv6/test/index.test.ts
+  getIPV6
+    ✓ throws when global fetch is unavailable
+    ✓ throws when fetch response is not ok
+    ✓ returns trimmed ipv6 string
+    ✓ targets the ipv6 endpoint
+PASS src/get-ipv4/test/index.test.ts
+  getIPV4
+    ✓ throws when global fetch is unavailable
+    ✓ throws when fetch response is not ok
+    ✓ returns trimmed ipv4 string
+    ✓ targets the ipv4 endpoint
+
+Test Suites: 3 passed, 3 total
+Tests:       13 passed, 13 total
+Snapshots:   0 total
+```
+
+```
+----------------|---------|----------|---------|---------|-------------------
+File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+----------------|---------|----------|---------|---------|-------------------
+All files       |     100 |      100 |     100 |     100 |
+ get-full-trace |     100 |      100 |     100 |     100 |
+  index.ts      |     100 |      100 |     100 |     100 |
+ get-ipv4       |     100 |      100 |     100 |     100 |
+  index.ts      |     100 |      100 |     100 |     100 |
+ get-ipv6       |     100 |      100 |     100 |     100 |
+  index.ts      |     100 |      100 |     100 |     100 |
+----------------|---------|----------|---------|---------|-------------------
+```
+
 ### Support
 Like this project? Support it with a github star, it would mean a lot to me! Cheers and Happy Coding.

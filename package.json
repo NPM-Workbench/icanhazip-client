@@ -2,7 +2,7 @@
   "name": "icanhazip-client",
   "description": "Tiny fetch-based client for icanhazip.com (IPv4, IPv6, trace)",
   "type": "module",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -12,8 +12,6 @@
     }
   },
   "scripts": {
-    "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
-    "prebuild": "npm run clean",
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "test": "jest",
